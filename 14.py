@@ -2,7 +2,7 @@ valores=list()
 maior=0
 menor=0
 for i in range(0,5):
-  valores.append(input(f"Digite um  valor para a posição {i}: "))
+  valores.append(input(f"Digite um valor para a posição {i}: "))
   if i==0:
     maior=menor=valores[i]
   else:
